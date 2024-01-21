@@ -5,31 +5,31 @@ import Colors from '../Color/Colors';
 
 const DisplayName = () => {
   return (
-    <div className='bg-white rounded-md   pb-6 '>
-    <div className='flex justify-center items-center'>
-      <Colors size={"100px"} bgColor={"pink"} borderColor={"light-pink"}/>
+    <div className='bg-white rounded-md w-1/2 ml-56 mt-4  pb-6 '>
+    <div className='flex justify-center items-center mb-2'>
+      <Colors size={"100px"} bgColor={"pink"} borderColor={"#F2AFEF"}/>
     </div>
      <div className="flex flex-col justify-center items-center">
-     <h2>Task Assignment Colour</h2>
+     <h2 className='mb-2'>Task Assignment Colour</h2>
      <section className='flex justify-evenly gap-6'>
       <div className='flex justify-center items-center flex-col'>
-      <Colors size={"60px"} bgColor={"pink"} borderColor={"pink"}/>
+      <Colors size={"60px"} bgColor={"pink"} borderColor={"light-pink"}/>
       <p className='text-xs'>Pink (Default)</p>
       </div>
       <div className='flex justify-center items-center flex-col'>
-      <Colors size={"60px"} bgColor={"pink"} borderColor={"green"}/>
+      <Colors size={"60px"} bgColor={"blue"} borderColor={"#AEDEFC"}/>
       <p className='text-xs'>Blue </p>
       </div>
       <div className='flex justify-center items-center flex-col'>
-      <Colors size={"60px"} bgColor={"green"} borderColor={"pink"}/>
+      <Colors size={"60px"} bgColor={"#E4E4D0"} borderColor={"#7AA874"}/>
       <p className='text-xs'>Green</p>
       </div>
       <div className='flex justify-center items-center flex-col'>
-      <Colors size={"60px"} bgColor={"red"} borderColor={"pink"}/>
+      <Colors size={"60px"} bgColor={"#CE5A67"} borderColor={"#F79BD3"}/>
       <p className='text-xs'>Red</p>
       </div>
       <div className='flex justify-center items-center flex-col'>
-      <Colors size={"60px"} bgColor={"yellow"} borderColor={"pink"}/>
+      <Colors size={"60px"} bgColor={"#FFDBAA"} borderColor={"#FFEECC"}/>
       <p className='text-xs'>Yellow</p>
       </div>
      

@@ -39,9 +39,9 @@ const Layout = ({ children }) => {
   ];
 
   return (
-    <div className='flex relative'>
+    <div className='flex '>
       <Sidebar items={sideBarItems} />
-      <main className='flex-1 ml-5 px-36 flex justify-center flex-col bg-gray-50 overflow-y-auto'>
+      <main className=' flex-1 flex justify-center items-center flex-col  bg-gray-50 overflow-y-auto'>
         {children}
       </main>
     </div>
