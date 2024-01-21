@@ -3,7 +3,7 @@ import React from 'react';
 const Sidebar = ({ items }) => {
   console.log("items", items);
   return (
-    <div className="fixed mr-36 bg-pink-400 text-white h-full w-64 overflow-y-auto">
+    <div className="fixed mr-36 bg-[#FF9BD2] text-white h-full w-64 overflow-y-auto">
       <div className="h-full min-h-screen">
         <h1 className='mt-4 mb-8 pl-6 text-black text-2xl font-bold'>staff area 2023</h1>
         <nav className="w-full">
