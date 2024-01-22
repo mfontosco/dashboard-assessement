@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
   return (
     <div className='flex '>
       <Sidebar items={sideBarItems} />
-      <main className=' flex-1 flex justify-center items-center flex-col  bg-gray-50 overflow-y-auto'>
+      <main className=' flex-1 flex justify-center items-center flex-col  bg-gray-100 overflow-y-auto'>
         {children}
       </main>
     </div>

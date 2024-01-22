@@ -5,7 +5,7 @@ import Colors from '../Color/Colors';
 
 const DisplayName = () => {
   return (
-    <div className='bg-white rounded-md w-1/2 ml-56 mt-4  pb-6 '>
+    <div className='bg-white rounded-md shadow-sm w-1/2 ml-56 mt-4  pb-6 pt-3 '>
     <div className='flex justify-center items-center mb-2'>
       <Colors size={"100px"} bgColor={"pink"} borderColor={"#F2AFEF"}/>
     </div>
